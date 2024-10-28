@@ -1,0 +1,12 @@
+- Nếu bạn tạo một phương thức xây dựng để xây dựng một đĩa DVD theo tiêu đề thì
+hãy tạo một phương thức xây dựng để xây dựng một DVD theo danh mục. JAVA có
+cho phép bạn làm điều này không?
+Java cho phép nạp chồng phương thức xây dựng (constructor overloading). Bạn có thể tạo
+nhiều phương thức xây dựng trong cùng một lớp với các tham số khác nhau.
+Ví dụ, trong một lớp DVD, bạn có thể định nghĩa:
+1. Phương thức xây dựng theo tiêu đề: Nhận một tham số là String title để khởi tạo đối
+tượng DVD với tiêu đề cụ thể.
+2. Phương thức xây dựng theo danh mục: Nhận một tham số là String category để khởi
+tạo đối tượng DVD với danh mục cụ thể.
+Mỗi phương thức xây dựng có thể có thân phương thức riêng biệt để xử lý các tham số khác
+nhau, cho phép khởi tạo đối tượng với cách mà bạn muốn.
